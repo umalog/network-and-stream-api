@@ -15,8 +15,7 @@ public class Datagramm {
             DatagramSocket ds = new DatagramSocket();
             ds.send(pack);
             ds.close();
-        } catch (
-                IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
